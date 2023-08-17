@@ -1,0 +1,19 @@
+.Polaris-Frame {
+    display: none;
+}
+
+.priceConditionContainer, .priceOptionContainer, .hiddenOptionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+
+table {
+    border-spacing: 30px;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
